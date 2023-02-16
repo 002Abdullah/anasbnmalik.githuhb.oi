@@ -1,0 +1,249 @@
+header{
+    color: white;
+    font-family: ;
+    font-size: 50px;
+    text-align: left;
+    text-shadow: 1px 1px 2px black, 0 0 10px blue, 0 0 10px darkblue;
+font-style: ;
+}
+#bajo{
+  float: right;
+}
+h1{
+  color: white;
+  text-align: right;
+}
+.half{
+  background-color: darkblue;
+}
+.links{
+background-color: darkbluewhite;
+  float: right;
+  color: white;
+}
+.school{
+  position: absolute;
+  top: 50px;
+   float: left;
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    /* width: 60%; */
+  }
+a{
+  color:white ;
+  font-style: italic;
+}
+hr{
+  color: white;
+  background-color: white;
+}
+/* img { */
+  /* position: absolute;
+  left: 50px; */
+  /* width: 300px;
+  height: 150px;
+} */
+
+ul{
+  display: flex;
+  list-style: none;
+background-color: darkblue;
+padding: 10px;
+justify-items: center;
+}
+li{
+
+  text-align: center;
+  list-style-type: none;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  margin-left:30px ;
+  background-color: ;
+}
+li :hover{
+background-color: white;
+color: darkblue;
+padding: 10px;
+font-size: 20px;
+border-radius: 10px;
+}
+
+.rightco{
+  float: right;
+}
+
+form{
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  float: right;
+}
+#span1, #span2, #span3{
+  color: red;
+  font-size: 30px;
+}
+.boxes{
+  display: flex;
+
+}
+.box1{
+
+}
+.box2{
+
+}
+.box3{
+
+}
+#message{
+  height: 180px;
+}
+.box1, .box2, .box3{
+  color: blue;
+  font-size: 10px;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  height: 250px;
+  box-shadow: 1px 1px 10px 10px rgb(102, 101, 101);
+} 
+
+input{
+  position: absolute;
+  top: 10px;
+ right: 10px;
+  width: 300px;
+  height: 40px;
+  float: right;
+  border-radius: 10px;
+}
+#submit{
+  width: 60px;
+  padding: 10px;
+  font-size: 10px;
+}
+button{
+  position: fixed;
+  bottom: 1px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.20s;
+    padding-top: 60px;
+    color: white;
+    background-color: darkblue;
+    /* animation: anime 50s infinite; */
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .sidenav a:hover {
+    color: black;
+    border-radius: 10px;
+  background-color: white
+  }
+ p{
+    color: yellow;
+  }
+  strong{
+    color: white;
+  }
+  #board{
+    max-width: 300px;
+    min-height: 250px;
+    position: absolute;
+    top: 130px;
+    left: 60%;
+padding: 10px;
+text-align: center;
+color: rgb(87, 84, 84);
+border-radius: 10px;
+    background-color: white;
+
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  marquee{
+    color: white;
+    font-size: 50px;
+    width: 600px;
+    float: right;
+  }
+/*
+  li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+  } */
+
+  .active {
+    background-color: red;
+  } */
+  * {box-sizing: border-box;}
+#read{
+  background-color: darkblue;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+  @media screen and (max-width: 500px) { 
+    header{
+      font-size: 20px;
+    }
+    li{
+      font-size: 10px;
+      text-align: center;
+    }
+    a{
+      color: white;
+    }
+    boxes{
+      width: 100px;
+    }
+  }
+/* header{
+  font-size: 20px;
+  color: blue;
+  text-shadow: 1px 1px 2px white, 0 0 10px red, 0 0 10px;
+
+}
+img{
+  width: 200px;
+}
+button{
+  position: fixed;
+  bottom: 1px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+  }

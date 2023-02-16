@@ -1,0 +1,23 @@
+header{
+    position: fixed;
+    left: 1px;
+    right: 1px;
+    top: 1px;
+    text-align: left;
+    color: darkblue;
+    font-size: 50px;
+    background-color: white;
+}
+a{
+    color: black;
+}
+a:hover{
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    color:darkblue;
+}
